@@ -9,12 +9,14 @@
 		<meta name = "keywords" content = "Programming, HTML, Javascript, WebDev, Website Development, Coding, Beginner Coder, Noob WebDev, Web Design, CSS">
 		<meta http-equiv = "refresh" content = "30">
 		
-		<title>Light in The Dark: Malaysian Education</title>
+		<title>Light in The Dark</title>
 		<link rel="stylesheet" href="./css/style.css">
 		
 		<!-- Link tag is used to connect this doc with an external resource -->
 		<!-- Meta elements deal with the data in the doc, does not display anything. Viewport is the user's screen. -->
 	</head>
+
+	<body>
 	
 	<header>
 		<div class = "header">
@@ -30,14 +32,13 @@
 				<li><a href = ./More.html>More</a>  v</li>
 			</ul>
 			<!-- Make a search bar -->
-			<form action = "./SubmitSubsciption.js">
+			<form action = "./SearchData.js">
 				<input type ="text" placeholder = "Search" name = "search">
-				<button type="submit" value = "Submit"> </button>
+				<button type="submit" value = "Submit">Search</button>
 			</form>
 		</div>
 	</header>
 	
-	<body>
 		<div class = "intro">
 			<!-- Plans: Text will be inverted and greyed out. Users must click on text to 'unravel' the real statement. -->
 			<p1>My name is Shahmir! And this is my journey. Hopefully, this lens will provoke. I live in Malaysia btw.
@@ -46,14 +47,69 @@
 		
 		<div class = "posts">
 			<img class = "imgpost" src = "./img/Kaneki and Kaneki.jpg" alt = "Sorry, your browser does not support this image"> <br>
-			<p2>FINDING OURSELVES IN A WORLD OF CHAOS</p2> <br>
+			<p2>FINDING OURSELVES IN A WORLD OF CHAOS</p2>
+			<p>Global Warming, Poverty, Hunger, Injustice. It's hard ain't it; this life of ours?</p>
 			
 			<img class = "imgpost" src = "./img/Firefly.jpg" alt = "Sorry, your browser does not support this image"> <br>
-			<p3>MATCHSTICK AND OIL</p3> <br>
+			<p3 class = "postTitle">MATCHSTICK AND OIL</p3>
+			<p>Darkness is the contrast of vision, an empty slate, a blank cartridge, the symbol of nothingness. We tend to cast darkness as a villain, romanticizing its existence,
+			   ignoring the real roots and solutions of a problem</p>
 			
 			<img class = "imgpost" src = "./img/System.jpg" alt = "Sorry, your browser does not support this image"> <br>
-			<p4>SOLUTIONS TO SYSTEM</p4> <br>
+			<p4 class = "postTitle">SOLUTIONS TO SYSTEM | PENYELESIAN UNTUK SISTEM</p4>
+			<p>Pada suatu hari, saya harap Malaysia dapat berubah dan menjunjung prinsip-prinsip ekualiti, keadilan dan kemakmuran antara masyarakat. Ternyatanya,
+			   terdapat pelbagai kemelut yang meruncing minda rakyat. Marilah kita mencari jalan penyelesaian untuk masalah-masalah ini</p>
 		</div>
+		
+		<div class = "sidebar">
+		<header>Latest Stories</header>
+		
+		<a href = "./././." ><img src = "./img/Poem-Sidebar.jpg" class = "sidebarPosts"></a>
+		<p class = "sidepostText"><i>Poems</p>
+		
+		<a href = "./././"><img src = "./img/Machina-Sidebar.jpg" class = "sidebarPosts"></a>
+		<p class = "sidepostText">Machina</p>
+		
+		<a href = "./././"><img src = "./img/Malaysia-sidebar.jpg" class = "sidebarPosts"></a>
+		<p class = "sidepostText">Living In Malaysia</i></p>
+		
+		</div>
+		
+		<div class = "bottomNav">
+			<div id = "aboutMe">
+			<a href = "./././">Get In Touch</a>
+			<a href = "./././">Feedback</a>
+			<a href = "./././">Halp.Pls?</a>
+			</div>
+			
+			<div id = "signalTransmission">
+			<header>Signal Transmission</header>
+			<a href = "./././">Facebook</a>
+			<a href = "./././">Twitter</a>
+			<a href = "./././">GitHub</a>
+			<a href = "./././">LinkedIn</a>
+			</div>
+			
+			<div id = "keepUpdated">
+			<header>Keep Updated</header>
+			<form action = "./Subscribe.js">
+				<input type = "text" placeholder = "Insert Email Address" name = "subscribe">
+				<button type = "submit" value = "subscribe">Subscribe</button>
+			</form>
+			</div>
+			
+			<div id = "behindTheScenes">
+			<header>Behind The Scenes</header>
+			<a href = "./././">Archives</a>
+			<a href = "./././">Media Center</a>
+			<a href = "./././">Attributions</a>
+			</div>
+		</div>
+		
+		<div class = "endQuote">
+			<p>"Underlying philosophy of this site"</p>
+		</div>
+		
 		<!--
 		<div class = "MainStuff"
 			<p2><br> Malaysia is my home, my birthplace, the land upon which God created me to be. However, there are problems. Problems that create injustice,
