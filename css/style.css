@@ -1,3 +1,4 @@
+/* Body code encompasses the whole webpage */
 body{
 	font-family: Courier New, Times New Roman, Arial;
 	line-height: 1.2;
@@ -10,16 +11,19 @@ body{
 /*Main header css */
 #headerMain{
 	border-bottom: 3px solid black;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
 	padding: 0;
-	margin:0;
+	margin: 0;
+	height: 60px;
 	line-height: 1.0;
 	background-color: rgb(56, 56, 73);
 }
 
+/*Text for title*/
 #headerMain h1 {
 	margin: 0; padding: 0;
+	color: gainsboro;
 }
 
 /*Title*/
@@ -31,28 +35,72 @@ body{
 	padding: 2px 0px 2px 2px;
 	border-radius: 3px;
 	margin: 0 0 0 20px;
+	float:left;
 }
 
-/*Navigation bar*/
+/* Whole Navigation bar*/
 .nav {
 	color: lightgreen;
 	font-size: 16px;
-	margin-left: 800px;
-	float: inline-start;
+	margin-left: 100px;
+	float: left;
+	margin-top: 0;
+	width: fit-content;
+	padding: 5px 0 0 0;
+	margin-bottom: 0;
 }
 
+/*each anchor links in nav bar*/
 .nav a{
 	color: lightpink;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
+	padding-right: 15px;
+	margin-right: 0;
+	margin-left: 0;
 }
 
+/*Hovering over each link*/
+.nav a:hover{
+	background-color: black;
+}
+
+/*unlinked list in nav bar*/
 .nav ul{
-	margin: 5;
-	padding: 5;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 
+/*list of items in nav bar*/
 .nav li {
 	display: inline;
+	margin: 0;
 }
+
+/*Search function in nav bar*/
+#searchBar {
+	float: right;
+	margin: 20px 100px 200px 0;
+	padding-bottom: 200px;
+}
+
+/*Intro paragraph*/
+.intro{
+	font-family: 'Lucida Calligraphy', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+}
+
+/*Images of the posts*/
+.imgpost{
+	height: 360px;
+	width: 640px;
+}
+
+/*Text of the posts*/
+.postTitle{
+	text-transform: upercase;
+	font-weight: 900;
+}
+
