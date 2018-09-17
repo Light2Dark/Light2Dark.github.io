@@ -127,3 +127,45 @@ body{
 	height: 100px;
 	width: 200px;
 }
+
+/*Bottom nav bar*/
+.bottomNav {
+	border-top: 5px solid rgba(204, 20, 13, 0.973);
+	border-bottom: 5px solid rgba(204, 20, 13, 0.973);
+	color: plum;
+	background-color: rgb(30, 30, 58);
+	height: 100px;
+}
+
+.bottomNav a {
+	text-decoration: none;
+	color: pink;
+}
+
+.bottomNav a:hover {
+	background-color: darkorchid;
+}
+
+/*Method to float columns*/
+.column {
+	float: left;
+	width : 25%
+}
+
+#aboutMe {
+
+}
+
+#signalTransmission {
+}
+
+#keepUpdated {
+}
+
+#behindTheScenes {
+}
+
+/*End Quote bar*/
+.endQuote {
+
+}
